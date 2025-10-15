@@ -1,0 +1,6 @@
+{
+  "preset": "vite",
+  "timeout": 600,
+  "devCommand": "npm run dev -- --host",
+  "installCommand": "npm install"
+}
