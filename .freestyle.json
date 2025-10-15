@@ -1,6 +1,12 @@
 {
   "preset": "vite",
   "timeout": 600,
+  "ports": [
+    {
+      "targetPort": 5173,
+      "port": 443
+    }
+  ],
   "devCommand": "npm run dev -- --host",
   "installCommand": "npm install"
 }
